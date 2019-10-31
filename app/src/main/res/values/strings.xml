@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">iculture</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="temp">Temperature</string>
+    <string name="humi">Humidity</string>
+    <string name="soil">Soil Moisture</string>
+
+
+</resources>

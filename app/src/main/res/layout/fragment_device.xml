@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".device">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+
+
+        <TextView
+            android:id="@+id/fax"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="30dp"
+            android:text="Fax"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+
+        <Switch
+            android:id="@+id/fax_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="30dp"
+            android:textOff="OFF"
+            android:textOn="ON"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="98dp" />
+
+
+
+        <TextView
+            android:id="@+id/cooler"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@+id/fax"
+            android:text="Cooler"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+
+        <Switch
+            android:id="@+id/cooler_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/fax_button"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:textOff="OFF"
+            android:textOn="ON"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="98dp" />
+
+
+
+
+        <TextView
+            android:id="@+id/light"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@id/cooler"
+            android:text="Light"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+
+        <Switch
+            android:id="@+id/light_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:layout_below="@+id/cooler_button"
+            android:textOff="OFF"
+            android:textOn="ON"
+            android:layout_marginRight="98dp"
+            android:layout_alignParentRight="true" />
+
+
+
+
+
+        <TextView
+            android:id="@+id/dipplySystem"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@+id/light"
+            android:text="Dipply System"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            />
+
+
+        <Switch
+            android:id="@+id/dipply_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:layout_below="@+id/light_button"
+            android:textOff="OFF"
+            android:textOn="ON"
+            android:layout_marginRight="98dp"
+            android:layout_alignParentRight="true" />
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+</FrameLayout>

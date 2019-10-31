@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contects">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp">
+
+
+        <TextView
+            android:id="@+id/cont_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="For buy or any other queries please contect us."
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            />
+
+
+        <EditText
+            android:id="@+id/user_name"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cont_text"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="40dp"
+            android:singleLine="true"
+            android:gravity="center"
+            android:inputType="text"
+            android:hint="Name"
+            android:textSize="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true" />
+
+        <EditText
+            android:id="@+id/email_contect"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/user_name"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:singleLine="true"
+            android:inputType="textEmailAddress"
+            android:gravity="center"
+            android:hint="Email"
+            android:textSize="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true" />
+
+
+        <EditText
+            android:id="@+id/mobile_contect"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/email_contect"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:singleLine="true"
+            android:inputType="number"
+            android:gravity="center"
+            android:hint="Mobile No"
+            android:textSize="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true" />
+
+        <EditText
+            android:id="@+id/message_contect"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mobile_contect"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:gravity="center"
+            android:hint="Message"
+            android:textSize="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true" />
+
+
+        <Button
+            android:id="@+id/send_btn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="send"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_centerInParent="true"
+            android:textStyle="bold"
+            android:background="@drawable/button_rounded"
+            android:layout_below="@id/message_contect"
+            android:layout_marginBottom="20dp"/>
+
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>
